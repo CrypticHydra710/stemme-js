@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanye West</title>
+    <link rel="stylesheet" href="stemmestyle.css">
+</head>
+
+<body>
+    <h1 class="hello">hello</h1>
+
+    <div class="buttons">
+
+        <div onclick="redirect()">
+            <button id="AP_Btn">
+                <p>AP</p>
+            </button>
+            <label class="countlabel" id="countLabelAP">0</label><br>
+        </div>
+
+        <div onclick="redirect()">
+            <button id="H_Btn">
+                <p>H</p>
+            </button>
+            <label class="countlabel" id="countLabelH">0</label><br>
+        </div>
+
+        <div onclick="redirect()">
+            <button id="SP_Btn">
+                <p>SP</p>
+            </button>
+            <label class="countlabel" id="countLabelSP">0</label><br>
+        </div>
+
+        <div onclick="redirect()">
+            <button id="FRP_Btn">
+                <p>FRP</p>
+            </button>
+            <label class="countlabel" id="countLabelFRP">0</label><br>
+        </div>
+
+        <div onclick="redirect()">
+            <button id="MDG_Btn">
+                <p>MDG</p>
+            </button>
+            <label class="countlabel" id="countLabelMDG">0</label><br>
+        </div>
+    </div>
+
+    <div>
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <div class="reset">
+        <button id="resetButton">Reset</button>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="stemmescript.js"></script>
+</html>

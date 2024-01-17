@@ -1,0 +1,104 @@
+body {
+    background-color: #d8c3a5;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+    color: #f5f5f5;
+    font-size: 100px;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 200ms all;
+}
+
+.hello:hover {
+    transform: translateY(-10px);
+    color: rgb(255, 149, 0);
+    box-shadow: 1px 10px 100px #7d7161;
+    border-radius: 35px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.buttons button {
+    height: 180px;
+    width: 180px;
+    border-radius: 30px;
+    border: 3px snow solid;
+    background-color: #212121;
+    transition: 200ms all;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: snow;
+    padding-bottom: 10%;
+    font-weight: bolder;
+    user-select: none;
+}
+
+.countlabel {
+    user-select: none;
+    display: flex;
+    font-size: 35px;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#AP_Btn:hover {
+    transform: translateY(-10px);
+}
+
+#H_Btn:hover {
+    transform: translateY(-10px);
+}
+
+#SP_Btn:hover {
+    transform: translateY(-10px);
+}
+
+#FRP_Btn:hover {
+    transform: translateY(-10px);
+}
+
+#MDG_Btn:hover {
+    transform: translateY(-10px);
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+#resetButton {
+    background-color: #212121;
+    font-size: 50px;
+    color: snow;
+    width: 200px;
+    height: 120px;
+    border: solid #212121 5px;
+    transition: 200ms all;
+    user-select: none;
+}
+
+#resetButton:hover {
+    border: solid crimson 15px;
+    color: crimson;
+    user-select: none;
+}
